@@ -13,16 +13,22 @@
 }
 .red {
   color: red;
-  background-color: red;
 }
 .yellow {
   color: yellow;
-  background-color: yellow;
 }
 .green {
   color: green;
-  background-color: green;
 }
-.off {
-  background-color: transparent;
+.red:active {
+  color: red;
+  background-color:red;
+}
+.yellow:active {
+  color: yellow;
+  background-color:yellow;
+}
+.green:active {
+  color: green;
+  background-color:green;
 }
