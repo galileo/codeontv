@@ -1,0 +1,31 @@
+.streetLights {
+  border-style : solid;
+  border-width: 5px;
+  width : 206px;
+  height : 618px;
+}
+.streetLights .light  {
+  border-style : solid;
+  border-width: 3px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.streetlights .light.red {
+  color:red;
+}
+.streetlights .light.yellow {
+  color:yellow;
+}
+.streetlights .light.green {
+  color:green;
+}
+.streetLights .red.active, .streetLights .red:hover {
+  background-color:red;
+}
+.streetLights .active, .streetLights .yellow:hover {
+  background-color:yellow;
+}
+.streetLights .green.active, .streetLights .green:hover {
+  background-color:green;
+}
