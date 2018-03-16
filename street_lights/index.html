@@ -12,12 +12,38 @@
         width: 132px;
       }
 
-      # One light sizes
-      width: 40px;
-      height: 40px;
-      margin: 1px;
-      border: 1px solid black;
-      #
+      .lights {
+        margin: 10px;
+        padding: 5px;
+        border: 1px solid black;
+      }
+
+      .lights ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
+
+      .lights ul li {
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin: 1px;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+
+      .lights .red {
+        border-color: red;
+      }
+
+      .lights .yellow {
+        border-color: yellow;
+      }
+
+      .lights .green {
+        border-color: green;
+      }
 
       .clear {
         clear: both;
@@ -25,8 +51,7 @@
     </style>
   </head>
   <body>
-    <!-- You can edit HTML only in two places !! -->
-    <div class="standingLights">
+    <div class="standingLights lights">
       <ul>
         <li class="red"></li>
         <li class="yellow"></li>
@@ -34,7 +59,7 @@
       </ul>
       <div class="clear"></div>
     </div>
-    <div class="fallenLights">
+    <div class="fallenLights lights">
       <ul>
         <li class="red"></li>
         <li class="yellow"></li>
