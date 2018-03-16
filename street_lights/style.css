@@ -11,24 +11,15 @@
   width: 200px;
   height: 200px; 
 }
-.red {
-  color: red;
-}
-.yellow {
-  color: yellow;
-}
-.green {
-  color: green;
-}
-.red.active {
-  color: red;
+.streetLights.red, .red.active, .red:hover {
+  color:red;
   background-color:red;
 }
-.yellow.active {
-  color: yellow;
+.streetLights.yellow, .yellow.active, .yellow:hover {
+  color:yellow;
   background-color:yellow;
 }
-.green.active {
-  color: green;
+.streetLights.green, .green.active, .green:hover {
+  color:green;
   background-color:green;
 }
