@@ -20,15 +20,15 @@
 .green {
   color: green;
 }
-.red:active {
+.red.active {
   color: red;
   background-color:red;
 }
-.yellow:active {
+.yellow.active {
   color: yellow;
   background-color:yellow;
 }
-.green:active {
+.green.active {
   color: green;
   background-color:green;
 }
