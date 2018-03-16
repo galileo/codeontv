@@ -4,28 +4,30 @@
   width : 205px;
   height : 618px;
 }
-#light{
+.red {
   border-style : solid;
   border-width: 3px;
   border-radius: 50%;
   width: 200px;
   height: 200px; 
-}
-.red {
   color: red;
-}
-.activeRed{
-   background-color: red;
+  background-color: red;
 }
 .yellow {
+  border-style : solid;
+  border-width: 3px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   color: yellow;
-}
-.activeYellow{
   background-color: yellow;
 }
 .green {
+  border-style : solid;
+  border-width: 3px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
   color: green;
-}
-.activeGreen{
   background-color: green;
 }
