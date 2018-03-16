@@ -11,15 +11,12 @@
   width: 200px;
   height: 200px; 
 }
-.streetLights.red, .red.active, .red:hover {
-  color:red;
+.streetLights>.light.red.active, .streetLights>.light.red:hover {
   background-color:red;
 }
-.streetLights.yellow, .yellow.active, .yellow:hover {
-  color:yellow;
+.streetLights>.light.yellow.active, .streetLights>.yellow:hover {
   background-color:yellow;
 }
-.streetLights.green, .green.active, .green:hover {
-  color:green;
+.streetLights>.light.green.active, .streetLights>.green:hover {
   background-color:green;
 }
