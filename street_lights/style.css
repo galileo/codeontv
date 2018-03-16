@@ -9,7 +9,7 @@
   border-width: 3px;
   border-radius: 50%;
   width: 200px;
-  height: 200px; 
+  height: 200px;
 }
 .streetLights>.light.red.active, .streetLights>.light.red:hover {
   background-color:red;
@@ -20,3 +20,7 @@
 .streetLights>.light.green.active, .streetLights>.green:hover {
   background-color:green;
 }
+.light:only-child {
+  display:none;
+}
+
