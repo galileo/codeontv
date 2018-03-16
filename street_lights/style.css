@@ -1,0 +1,31 @@
+#streetLights {
+  border-style : solid;
+  border-width: 5px;
+  width : 205px;
+  height : 618px;
+}
+#light{
+  border-style : solid;
+  border-width: 3px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+}
+.red {
+  color: red;
+}
+.activeRed{
+   background-color: red;
+}
+.yellow {
+  color: yellow;
+}
+.activeYellow{
+  background-color: yellow;
+}
+.green {
+  color: green;
+}
+.activeGreen{
+  background-color: green;
+}
